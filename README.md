@@ -13,14 +13,17 @@ Requirements :-
 Step 1. Goto "/usr/local/lib/python2.7/dist-packages/gmplot"
 Step 2. open file gmplot.py 
 
-Step 3.  
+Step 3. 
+
 		Copy these lines after  275th line  
 			
 			f.write(',styles: [{"stylers": [{"visibility": "off"}] }]') 
 
 
-		Copy these two lines at the end of function write_points 
+		Copy these two lines at the end of function write_points
+		 
 			f.write('\t\tvar trafficLayer = new google.maps.TrafficLayer();\n')
         	f.write('\t\ttrafficLayer.setMap(map);')
-Step 4. Save gmplot.py 
+Step 4. Save gmplot.py
+
 step 5. Run main.py
