@@ -13,7 +13,9 @@ Requirements :-
 Step 1. Goto "/usr/local/lib/python2.7/dist-packages/gmplot"
 Step 2. open file gmplot.py 
 
-Step 3. Copy these lines after  275th line  
+Step 3.  
+		Copy these lines after  275th line  
+			
 			f.write(',styles: [{"stylers": [{"visibility": "off"}] }]') 
 
 
