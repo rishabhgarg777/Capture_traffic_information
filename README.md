@@ -5,8 +5,11 @@ Instruction to run the code
 
 
 Requirements :-
+	
 	1. gmplot (sudo pip install gmplot)
+	
 	2. selenium
+	
 	3. PhantomJS
 
 
