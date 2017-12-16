@@ -5,12 +5,13 @@ Instruction to run the code
 
 
 Requirements :-
-1. gmplot (sudo pip install gmplot)
-2. selenium
-3. PhantomJS
+	1. gmplot (sudo pip install gmplot)
+	2. selenium
+	3. PhantomJS
 
 
 Step 1. Goto "/usr/local/lib/python2.7/dist-packages/gmplot"
+
 Step 2. open file gmplot.py 
 
 Step 3. 
@@ -23,6 +24,7 @@ Step 3.
 		Copy these two lines at the end of function write_points
 		 
 			f.write('\t\tvar trafficLayer = new google.maps.TrafficLayer();\n')
+        
         	f.write('\t\ttrafficLayer.setMap(map);')
 Step 4. Save gmplot.py
 
